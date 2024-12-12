@@ -2,7 +2,7 @@
 #include<string.h>
 #include<ctype.h> 
 int main(){
-	char text[]="ho ang";
+	char text[]="hello world";
 	int size = strlen(text); 	
 	for (int i=0; i<size;i++){
 		if(i==0 || text[i-1]==' '){
